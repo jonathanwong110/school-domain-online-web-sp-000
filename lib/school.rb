@@ -12,7 +12,7 @@ class School
     roster[grade] ||=[]
     roster[grade] << name
   end
-  
+
   def grade(name)
    roster.each do |grade, name|
      if grade == 10
@@ -20,6 +20,7 @@ class School
      end
    end
  end
+
   
   def sort
     array = {}
